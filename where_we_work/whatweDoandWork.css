@@ -12,23 +12,37 @@
   width: 100vw;
   height: 100vh;
   background-position: center;
+  object-fit: contain;
+  overflow: hidden;
+  justify-content: center;
 }
 .container {
   background-color: white;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  justify-content: center;
+  align-content: stretch;
+  padding-top: 40px;
+  height: 700px;
 }
-
+.row {
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  padding-top: 40px;
+  overflow: hidden;
+}
+p {
+  font-weight: 450;
+}
 /* What We Do Section */
 #col1 {
-  background-image: url(images/nav_side.jpg);
+  background-image: url(images/nav_side_sub.jpg);
   background-size: contain;
   overflow: hidden;
   max-width: 18%;
-  max-height: 100vh;
+  height: 50.8vh;
   background-position: center;
+  justify-content: flex-start;
+  overflow: hidden;
 }
 #col2 {
   padding: 0;
