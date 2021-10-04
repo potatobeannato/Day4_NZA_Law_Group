@@ -20,7 +20,9 @@
   padding-top: 20px;
   padding-bottom: 40px;
 }
-
+p {
+  font-weight: 450;
+}
 /* What We Do Section */
 #col1 {
   background-image: url(images/nav_side.jpg);
